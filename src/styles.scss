@@ -1,0 +1,66 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.main-content { 
+  display: flex; 
+  justify-content: center; /* Centra horizontalmente */ 
+  align-items: center; /* Centra verticalmente */ 
+  min-height: 100vh; /* Hace que el contenedor abarque toda la altura de la ventana */ 
+  //padding-top: 10px; /* Añade espacio superior */ 
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */ }
+
+.row { 
+  display: flex; 
+  width: 100%; 
+  flex-wrap: wrap; /* Permite que las columnas se adapten al tamaño de la pantalla */  }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+
+.container {
+  max-width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+
+.info-section {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0f7fa; /* Color de fondo para las secciones de información */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .contact-card {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 5px;
+  }
+
+  .contact-card {
+    margin: 10px 0;
+    padding: 10px;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

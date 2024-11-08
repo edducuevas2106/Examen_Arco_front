@@ -1,0 +1,69 @@
+.contact-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center; /* Centra el texto y la imagen */
+  }
+  
+  .logo-image {
+    width: 200px; /* Aumenta el ancho */
+    height: auto; /* Mantiene la proporción */
+    margin-bottom: 10px;
+  }
+  
+  .separator {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 2px solid #00796b; /* Color de la línea separadora */
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffeb3b; /* Color de fondo del botón */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .info-section {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .info-section h5 {
+    margin: 0;
+    padding: 10px;
+    background-color: #00796b; /* Color de fondo del cuadro */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .yellow-bg {
+    background-color: #ffeb3b; /* Color de fondo amarillo */
+    color: #000; /* Color del texto negro */
+  }
+  
+  .blue-bg {
+    background-color: #00796b; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+  }
+  
+  .white-bg {
+    background-color: #ffffff; /* Color de fondo blanco */
+    color: #000; /* Color del texto negro */
+  }
+  

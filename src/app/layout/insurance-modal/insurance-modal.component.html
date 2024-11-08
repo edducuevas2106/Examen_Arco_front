@@ -1,0 +1,25 @@
+<div class="modal-content">
+  <h2>Domicilio</h2>
+  <form>
+    <div class="input-field">
+      <label for="codigoPostal">Código Postal:</label>
+      <input type="text" id="codigoPostal" name="codigoPostal" (input)="onPostalCodeInput($event)" [(ngModel)]="codigoPostal" maxlength="5">
+    </div>
+    <div class="input-field">
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado" name="estado" [value]="estado" readonly>
+    </div>
+    <div class="input-field">
+      <label for="municipio">Municipio:</label>
+      <input type="text" id="municipio" name="municipio" [value]="municipio" readonly>
+    </div>
+    <div class="input-field">
+      <label for="colonia">Colonia:</label>
+      <select id="colonia" name="colonia" [(ngModel)]="colonia"> 
+        <option value="" disabled selected>Selecciona una colonia</option> 
+        <option *ngFor="let c of colonias" [value]="c">{{c}}</option> 
+      </select>
+    </div>
+  </form>
+  <button mat-button (click)="close()">Cerrar</button>
+</div>
